@@ -1,6 +1,5 @@
 from config.db import Base
-from sqlalchemy import Column, Integer, String, Date
-from sqlalchemy.orm import relationship
+from sqlalchemy import Column, Integer, String
 
 class Address(Base):
     __tablename__ = 'ADDRESS'
